@@ -1,0 +1,137 @@
+TUJUAN
+
+Memahami konsep sistem persamaan Linear 3 Variable.
+Memahami cara menyelesaikan SPL menggunakan metode Eliminasi Gauss.
+Mempelajari proses penyelesaian menggunakan matriks augmented.
+Menentukan nilai Variable x, y, dan z.
+Menerapkan metode Eliminasi Gauss kedalam program Pyton.
+
+BENTUK UMUM
+
+Sistem persamaan Linear 3 Varible memiliki tiga persamaan dengan tiga variabel, yaitu x, y, dan z.
+
+a1x + b1y + c1z = d1
+a2x + b2y + c2z = d2
+a3x + b3y + c3z = d3
+
+Keterangan:
+- x, y, z = variabel yang dicari.
+- a, b, c = koefisien variabel.
+- d = konstanta
+
+CONTOH SOAL 
+
+Diketahui sistem persamaan linear tiga variabel berikut:
+
+2x + 3y + z = 16
+x + 2y + 3z = 17
+3x + y + 2z = 17
+
+Tentukan nilai x, y, dan z menggunakan metode Eliminasi Gauss.
+
+LANGKAH-LANGKAH ALGORITMA
+
+Langkah 1. Membentukan matriks augmented 
+
+[ 2 3 1 | 16 ]
+[ 1 2 3 | 17 ]
+[ 3 2 1 | 17 ]
+
+Langkah 2. Menukar baris pertama dan kedua
+
+R1 <-> R2
+
+Hasil:
+[ 1 2 3 | 17 ]
+[ 2 3 1 | 16 ]
+[ 3 2 1 | 17 ]
+
+Langkah 3. Eliminasi  kolom pertama 
+
+Gunakan operasi:
+R2 = R2 - 2R1
+R3 = R3 - 3R1
+
+Hasil
+
+[ 1  2  3   |  17  ]
+[ 0  -1  -5 | -18 ]
+[ 0  -5  -7 | -34 ]
+
+Langkah 4. Eliminasi kolom kedua
+
+Gunakan operasi:
+R3 = R3 - 5R2
+
+Hasil:
+
+[ 1 2 3 ] | 17 ]
+[ 0 -1 -5 ] | -18 ]
+[ 0 0 18 ] | 58 ]
+
+Langkah 5. Substitusi balik
+
+Mencari nilai z:
+18z = 56
+z = 56/18 = 28/9
+
+Mencari nilai y:
+-y -5z = -18
+y = 18  - 5 (28/9)
+y 22/9
+
+Mencari nilai x:
+x + 2y + 3z = 17
+x = 17 - 2(22/9) - 3(28/9)
+x = 25/9
+
+HASIL PERHITUNGAN CONTOH
+
+Berdasarkan perhitungan menggunakan metode Eliminasi Gauss, diperoleh:
+
+x = 25/9 = 2,7778
+y = 22/9 = 2,4444
+z = 28/9 = 3,1111
+
+Jadi, solusi sistem persamaan tersebut adalah:
+x = 2,7778
+y = 2,4444
+z = 2,1111
+
+KESIMPULAN
+
+Metode Eliminasi Guass merupakan metode numerik untuk menyelesaikan sistem
+Persamaan Linear dengan mengubah mengubah persamaan menjadi matriks augmented.
+Proses dilakukan melalui operasi baris elementer hingga membentuk matriks segitiga atas, kemudian
+dilanjutkan dengan substitusi balik.
+
+Berdasarkan contoh soal, diperoleh nilai x = 2,7778, y = 2,4444 dan z = 3,1111. Dengan demikian,
+Metode Eliminasi gauss dapat digunakan untuk mendapatkan penyelesaian SPL 3 Variabel
+Secara sistematis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
