@@ -1,0 +1,4 @@
+DATA AAKUN MAHASISWA
+Link Github : https://github.com/tulex12333/Komputasi-Numerik/new/main
+Link Google Colab : https://colab.research.google.com/drive/1B34YNKtVNUw5LONF2DRgCESJ4onuEzXS?usp=sharing
+Link Linkedin : https://www.linkedin.com/feed/emanmau/
