@@ -1,0 +1,7 @@
+Prompt AI SPL 3 variabel : 
+1. Bantu saya menyusun laporan tugas Komputasi Numerik mengenai metode Eliminasi Gauss untuk 
+    untuk menyelesaikan SPL 3 Variabel. Jelaskan materi secara singkat, berikan contoh soal beserta 
+    penyelesaiannya, buat algoritma dan pseudocode, serta implementasikan dalam Python menggunakan google colab.
+2. Buatkan saya codingan sesuai algoritma yang bisa di ketik di google colab.
+3.  Pastikan hasil perhitungan manual sesuai dengan hasilnya dan periksa apakah codingan tersebut sudah benar 
+    dan dapat di jalankan.
